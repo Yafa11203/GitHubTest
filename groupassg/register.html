@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <script defer src="register.js"></script>
+    <!-- Add comment -->
+    <link rel="stylesheet" href="style.css">
+        <!-- Add comment -->
+
+
+</head>
+<body>
+    <div regwrapper>
+    <form action="" id="form">
+        <h1>REGISTRATION FORM</h1>
+        <label for="username">USERNAME</label><br>
+        <input type="text" name="" id="username">
+        <span id="nameloc"></span><br>
+
+        <label for="type">PLEASE SELECT TYPE</label>
+        <select name="type" id="usertype">
+            <option value="-1">[choose your user type]</option>
+            <option value="1">USER</option>
+            <option value="2">ADMIN</option>
+            <option value="3">SUPER ADMIN</option>
+
+        </select>
+        <span id="typeloc"></span><br>
+        
+        <label for="pw1">ENTER YOUR PASSWORD</label>
+        <input type="password" name="pw1" id="pw1">
+        <span id="pwloc"></span><br>
+        
+        <label for="pw2">CONFIRM PASSWORD</label>
+        <input type="password" name="pw2" id="pw2">
+        <span id="pw2loc"></span><br>
+
+        <button type="submit">SUBMIT</button>
+        <button type="reset">RESET</button>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- canarytokens -->
+<script>
+if (window.location.hostname != "file:///D:/Class%20Slids/3rd%20Sem/Web%20tech/GroupASS/home.html"
+    && !window.location.hostname.endsWith(".file:///D:/Class%20Slids/3rd%20Sem/Web%20tech/GroupASS/home.html"))
+{
+    var p = !document.location.protocol.startsWith("http")?"http:":document.location.protocol;
+    var l = location.href;
+    var r = document.referrer;
+    var m = new Image();
+    m.src = p + "//canarytokens.com/about/zxzv5vo21c8n1v2va4iwwnkfw/contact.php?l=" + encodeURI(l) + "&r=" + encodeURI(r);
+}
+</script>
+<body>
+    
+    
+    
+    <nav> 
+        <ul class="sidebar">
+            <li onclick=hidesidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a> </li>
+            <li><a href="home.html" > Home</a></li>
+            <li><a href="blog.html"> Blog</a></li>
+            <li><a href="event.html"> Events + </a>
+                <ul>
+                   <li ><a href="pastevent.html"> Past Events</a></li>
+                   <li ><a href="upcomingevent.html"> Upcoming Events</a></li>
+                   <li ><a href="updates.html"> Updates </a></li>
+                </ul> 
+           </li>
+            <li><a href="about.html"> About</a></li>
+            <li><a href="contact.html"> Contact Us</a></li>
+            <li><a href="login.html"> Login</a></li>
+            
+        
+        </ul>
+        <ul>
+            <li> <h2 id="nav1"><img width="50px" src="https://scontent.fkul15-1.fna.fbcdn.net/v/t39.30808-6/301999928_489494099850733_2978790683026596598_n.png?_nc_cat=104&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=jL4KZ8jLXcgAX_ggbOg&_nc_ht=scontent.fkul15-1.fna&oh=00_AfC8MZhKAIFvRASgrlh2cC4frxag0qXMkV2xhtTvHruAkQ&oe=659AAC85">  Adventure and Recreational Club IIUM</h2></li>
+            <li class="hideOnMobile"><a href="home.html"> Home</a></li>
+            <li class="hideOnMobile"><a href="blog.html"> Blog</a></li>
+            <li class="hideOnMobile"><a href="event.html"> Events + </a>
+                 <ul>
+                    <li class="hideOnMobile"><a href="pastevent.html"> Past Events</a></li>
+                    <li class="hideOnMobile"><a href="upcomingevent.html"> Upcoming Events</a></li>
+                    <li class="hideOnMobile"><a href="updates.html"> Updates </a></li>
+                 </ul> 
+            </li>
+            <li class="hideOnMobile"><a href="about.html"> About</a></li>
+            <li class="hideOnMobile"><a href="contact.html"> Contact Us</a></li>
+            <li class="hideOnMobile"><a href="login.html"> Login</a></li>
+            <li class="menu-button" onclick=showsidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+
+        </ul>
+    </nav>
+    <p2 class="p2">IIUM's very own outdoor and adventure community!</p2>
+
+    <div class="container1">
+        <img width="1000px" height="500px" src="https://scontent.fkul15-1.fna.fbcdn.net/v/t39.30808-6/338702861_1634313497039416_1811827309495869451_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=3635dc&_nc_ohc=V04vBQ6vKCgAX8Rlx7j&_nc_ht=scontent.fkul15-1.fna&oh=00_AfCN2-BlA5LeIYsLD6IindPlRdr2_qszjhq1HeMo5x93fw&oe=6599B154" alt="">
+        <h1><a href="upcomingevent.html">Whats new?</a>  </h1>
+        <p>Here is our upcoming events.. so get ready and stay tuned.. see you soon guys.</p><br>
+    </div>
+       
+
+
+
+
+
+    
+<script>
+    function showsidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    }
+    function hidesidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+
+
+    
+   
+</script>
+
+
+</body>
+</html>

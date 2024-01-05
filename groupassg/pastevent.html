@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Past event</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+    <nav> 
+        <ul class="sidebar">
+            <li onclick=hidesidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a> </li>
+            <li><a href="home.html"> Home</a></li>
+            <li><a href="blog.html"> Blog</a></li>
+            <li><a href="event.html"> Events + </a>
+                <ul>
+                   <li ><a href="pastevent.html"> Past Events</a></li>
+                   <li ><a href="upcomingevent.html"> Upcoming Events</a></li>
+                   <li ><a href="updates.html"> Updates </a></li>
+                </ul> 
+           </li>
+            <li><a href="about.html"> About</a></li>
+            <li><a href="contact.html"> Contact Us</a></li>
+            <li><a href="login.html"> Login</a></li>
+        </ul>
+        <ul>
+            <li> <h2 id="nav1"><img width="50px" src="https://scontent.fkul15-1.fna.fbcdn.net/v/t39.30808-6/301999928_489494099850733_2978790683026596598_n.png?_nc_cat=104&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=jL4KZ8jLXcgAX_ggbOg&_nc_ht=scontent.fkul15-1.fna&oh=00_AfC8MZhKAIFvRASgrlh2cC4frxag0qXMkV2xhtTvHruAkQ&oe=659AAC85">  Adventure and Recreational Club IIUM</h2></li>
+            <li class="hideOnMobile"><a href="home.html"> Home</a></li>
+            <li class="hideOnMobile"><a href="blog.html"> Blog</a></li>
+            <li class="hideOnMobile"><a href="event.html"> Events + </a>
+                 <ul>
+                    <li class="hideOnMobile"><a href="pastevent.html"> Past Events</a></li>
+                    <li class="hideOnMobile"><a href="upcomingevent.html"> Upcoming Events</a></li>
+                    <li class="hideOnMobile"><a href="updates.html"> Updates </a></li>
+                 </ul> 
+            </li>
+            <li class="hideOnMobile"><a href="about.html"> About</a></li>
+            <li class="hideOnMobile"><a href="contact.html"> Contact Us</a></li>
+            <li class="hideOnMobile"><a href="login.html"> Login</a></li>
+            <li class="menu-button" onclick=showsidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+
+        </ul>
+    </nav>
+    <!-- <p class="p1">IIUM's very own outdoor and adventure community!</p> -->
+    
+<script>
+    function showsidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    }
+    function hidesidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+</script>
+
+</body>
+</html>
